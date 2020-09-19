@@ -29,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Total de quilometros"
+        android:text="Distância em Km"
         android:textColor="@color/descriptionColor"/>
 
     <EditText
@@ -61,7 +61,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Kms por litro"
+        android:text="Km(s) por litro"
         android:textColor="@color/descriptionColor"/>
 
     <TextView

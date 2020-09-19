@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Aplicativo de Viagem</string>
+    <string name="msgErrorDistancia">Valor da distância inválido, por gentileza preencha novamente.</string>
+    <string name="msgErrorPreco">Valor do preço inválido, por gentileza preencha novamente.</string>
+    <string name="msgErrorAutonomia">Valor da autonomia inválido, por gentileza preencha novamente.</string>
     <string name="distancia">Distância</string>
     <string name="preco">Preço</string>
     <string name="autonomia">Autonomia</string>

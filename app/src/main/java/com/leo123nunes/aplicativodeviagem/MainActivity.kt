@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
@@ -23,13 +24,23 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     private fun calculate(){
         if(validateInput()){
-            val distance = editDistance.text.toString().toFloat()
-            val price = editPrice.text.toString().toFloat()
-            val autonomy = editAutonomy.text.toString().toFloat()
+            when{
+                editDistance.text.toString()==""||editDistance.text.toString().startsWith("0") -> Toast.makeText(this,"O campo distancia não pode estar em branco.",Toast.LENGTH_LONG).show()
+                editPrice.text.toString()==""||editPrice.text.toString().startsWith("0") -> Toast.makeText(this,"O campo preço não pode estar em branco.",Toast.LENGTH_LONG).show()
+                editAutonomy.text.toString()==""||editAutonomy.text.toString().startsWith("0") -> Toast.makeText(this,"O campo autonomia não pode estar em branco.",Toast.LENGTH_LONG).show()
+                else -> {
+                    val distance = editDistance.text.toString().toFloat()
+                    val price = editPrice.text.toString().toFloat()
+                    val autonomy = editAutonomy.text.toString().toFloat()
 
-            val total = (distance*price)/autonomy
+                    val total = (distance*price)/autonomy
 
-            totalPrice.text = "R$ ${"%.2f".format(total)}"
+                    totalPrice.text = "R$ ${"%.2f".format(total)}"
+                }
+            }
+
+        }else{
+                Toast.makeText(this,"Por gentileza, preencha todos os campos.",Toast.LENGTH_LONG).show()
         }
     }
 
