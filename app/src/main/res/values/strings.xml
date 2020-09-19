@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Aplicativo de Viagem</string>
+    <string name="distancia">Distância</string>
+    <string name="preco">Preço</string>
+    <string name="autonomia">Autonomia</string>
+    <string name="boasVindas">Bem vindo ao aplicativo para calcular os custos da sua viagem!</string>
 </resources>
