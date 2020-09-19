@@ -17,10 +17,12 @@
         android:textColor="@color/RScolor"/>
 
     <EditText
-        android:layout_marginTop="30dp"
+        android:id="@+id/editDistance"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/distancia"
+        android:inputType="numberDecimal"
         android:textColor="@color/descriptionColor"/>
 
     <TextView
@@ -31,10 +33,12 @@
         android:textColor="@color/descriptionColor"/>
 
     <EditText
-        android:layout_marginTop="45dp"
+        android:id="@+id/editPrice"
+        android:layout_marginTop="25dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/preco"
+        android:inputType="numberDecimal"
         android:textColor="@color/descriptionColor"/>
 
     <TextView
@@ -45,10 +49,12 @@
         android:textColor="@color/descriptionColor"/>
 
     <EditText
-        android:layout_marginTop="45dp"
+        android:id="@+id/editAutonomy"
+        android:layout_marginTop="25dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/autonomia"
+        android:inputType="numberDecimal"
         android:textColor="@color/descriptionColor"/>
 
     <TextView
@@ -59,7 +65,7 @@
         android:textColor="@color/descriptionColor"/>
 
     <TextView
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -67,7 +73,8 @@
         android:text="SEU GASTO TOTAL SERÁ DE"/>
     
     <TextView
-        android:layout_marginTop="15dp"
+        android:id="@+id/totalPrice"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="R$ 0"
@@ -76,7 +83,8 @@
         android:gravity="center"/>
 
     <Button
-        android:layout_marginTop="15dp"
+        android:id="@+id/buttonCalculate"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:text="CALCULAR"
