@@ -1,5 +1,5 @@
 # AndroidStudio-Kotlin_AppViagemn-JavaSwing_Schedule
-Este projeto é de um aplicativo para calcular o valor gasto em preço do combustível de uma viagem. O repositório contém uma pasta com as imagens do aplicativo em execução após o término do projeto.
+Aplicativo para calcular o valor gasto em preço do combustível de uma viagem. O repositório contém uma pasta com as imagens do aplicativo em execução após o término do projeto.
 
 # Linguagem de programação
 Kotlin.
