@@ -1,5 +1,5 @@
 # AndroidStudio-Kotlin_TravelApp
-Aplicativo para calcular o valor gasto em preço do combustível de uma viagem. O repositório contém uma pasta com as imagens do aplicativo em execução após o término do projeto.
+Aplicativo para calcular o valor gasto em preço do combustível de uma viagem.
 
 # Linguagem de programação
 Kotlin.
