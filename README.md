@@ -1,7 +1,7 @@
 # Travel app
 App to calculate the amount spent in fuel on a trip. 
 
-## Language
+## Code language
 Kotlin.
 
 ## IDE
